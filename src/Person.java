@@ -1,6 +1,7 @@
 class Person {
 String Name;
 String address;
+
 final String country = "indonesia";
   void sayHello(String paramName) {
       System.out.println("Hallo "+paramName+" , My Name Is , "+Name);
@@ -18,6 +19,7 @@ final String country = "indonesia";
             case "Bola" -> System.out.println("Hobby Anda Bola");
             default -> System.out.println("Anda Gak Punya Hobby");
         }
+
     }
 
 }

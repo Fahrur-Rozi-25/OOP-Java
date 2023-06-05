@@ -18,5 +18,20 @@ public class PersonApp {
         Person person1;
         person1 = new Person();
         person1.data2("Bola");
+
+
+        var Address = new Constructor("Fahrur","Jaksel");
+        System.out.println(Address.Name);
+        System.out.println(Address.Address);
+
+        Constructor constructor1;
+        constructor1 = new Constructor("Dea");
+        System.out.println(constructor1.Name);
+
+        var This = new This("Cendy");
+        System.out.println(This.Address);
+         var Name = new This("Reza");
+         Name.Name("CenDy");
     }
+
 }
