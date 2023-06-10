@@ -5,6 +5,7 @@ public record LoginRequest(String username,String password) {
         System.out.println("Make Login Req Constructor Username: "+username+" Password: "+password);
     }
     public LoginRequest (String username){
+
         this(username,"");
     }
 }

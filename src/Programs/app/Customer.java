@@ -32,6 +32,17 @@ public class Customer {
         System.out.println(customer.getLevel());
         System.out.println(customer.getLevel().getDescription());
 
+        String levelName = Levels.VIP.name();
+        System.out.println(levelName);
+
+        Levels levels = Levels.valueOf("STANDARD");
+        System.out.println(levels);
+        System.out.println("PRINT ALL");
+        for (var value : Levels.values()){
+            System.out.println(value);
+        }
+
+
 
 
 
